@@ -34,12 +34,16 @@ header {
   margin: 60px auto 80px;
 }
 
-.img-pc {
+.wrap-img-pc {
   width: calc((100% - 50px) * 0.7);
 }
 
-.img-sp {
+.wrap-img-sp {
   width: calc((100% - 50px) * 0.3);
+}
+
+.main img {
+  width: 100%;
 }
 
 @media screen and (max-width: 599px) {
@@ -56,11 +60,11 @@ header {
     margin-top: 40px;
   }
 
-  .img-pc {
-    width: 100%;
+  .wrap-img-pc {
+    display: none;
   }
 
-  .img-sp {
-    display: none;
+  .wrap-img-sp {
+    width: 100%;
   }
 }
